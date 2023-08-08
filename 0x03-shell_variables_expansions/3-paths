@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | wc -l
+count=$(find "$path" -type d -mindepth $n | wc -l) 
