@@ -1,2 +1,2 @@
 #!/bin/bash
-count=$(find "$path" -type d -mindepth $n | wc -l) 
+echo $((` echo $PATH | grep -o ":/" | wc -l ` +1)) 
